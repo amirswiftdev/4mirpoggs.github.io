@@ -6,13 +6,14 @@
 		<firmware>
 			<miniOS>7.0</miniOS>
 		</firmware>
-	</compatibility>
+                     <miniOS>10.0<miniOS>
+	</compatibility>9.0
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<shortDescription>This is a sample new package. Firmware should be greater than 7.0</shortDescription>
 	<descriptionlist>
-		<description>This is an package will full depictions.</description>
+		<description>Awesome tweak</description>
 		<description>It has more description lines.</description>
 		<description><![CDATA[
 		You can also have<br/> 
@@ -38,7 +39,7 @@
 	<links>
 		<link>
 			<name>/r/jailbreak</name>
-			<url>https://www.github.com/amirpogg</url>
+			<url>https://www.github.com/amirpogg</url> 
 			<iconclass>fa fa-reddit</iconclass>
 		</link>
 	</links>

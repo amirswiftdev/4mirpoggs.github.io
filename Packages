@@ -1,28 +1,15 @@
-Package: com.amirpogg.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: 4mirpoggs <amirramos39@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs/com.amirpogg.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: 4mirpoggs <amirramos39@gmail.com>
-Depiction: https://amirpogg.github.io/4mipoggs/depictions/?p=com.amirpogg.newpackage
 
-Package: com.amirpogg.oldpackage
-Version: 1.0.0-1
+Package: com.elias.socialdownloader
+Name: Social Downloader
+Version: 1.2-1
 Section: Tweaks
-Maintainer: 4mirpoggs <amirramos39@gmail.com>
-Depends: firmware (<7.0)
 Architecture: iphoneos-arm
-Filename: ./debs/com.amirpogg.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <ramirramos39@gmail.com>
-Depiction: https://amirpogg.github.io/4mirpoggs/depictions/?p=com.amirpogg.oldpackage
-
+Depends: mobilesubstrate, ws.hbang.common
+Installed-Size: 1744
+Author: elias
+Maintainer: elias
+Description: An awesome MobileSubstrate tweak!
+Size:376630
+MD5sum:64a2806148602bc9b272b52036633ae0
+File:./debs/socialdownloader.deb
+Depictions:https://amirpogg.github.io/4mirpoggs/depictions/?p=(socialdownloader)
